@@ -252,7 +252,7 @@ species_scores_juv$scaled_consumer_bio_juv[is.na(species_scores_juv$group)]=0</c
   select(species, prop_consumption_raw, prop_consumption_scaled, prop_consumer_bio_raw, 
          prop_consumer_bio_scaled) 
 
-write.csv(species_scores_all,&quot;../output/ecosystem_importance_scores.csv&quot;)</code></pre>
+write.csv(species_scores_all,&quot;../output/ecosystem_importance_scores.csv&quot;, row.names=F)</code></pre>
 </div>
 
 

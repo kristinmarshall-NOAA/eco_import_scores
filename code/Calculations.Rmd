@@ -122,7 +122,7 @@ species_scores_all<- species_scores_juv  %>%
   select(species, prop_consumption_raw, prop_consumption_scaled, prop_consumer_bio_raw, 
          prop_consumer_bio_scaled) 
 
-write.csv(species_scores_all,"../output/ecosystem_importance_scores.csv")
+write.csv(species_scores_all,"../output/ecosystem_importance_scores.csv", row.names=F)
 
 ```
 
